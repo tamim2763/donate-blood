@@ -1,0 +1,63 @@
+/* styles/dashboard.css */
+
+body {
+    /* background-image: linear-gradient(115deg, rgba(214, 192, 205, 0.8), rgba(117, 117, 143, 0.7)), url(../blood\ donate\ background.jpg); */
+    background-image: url('../blood donate background.jpg');
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.dboard {
+    transition: transform 0.2s;
+}
+
+.dboard:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    max-width: 600px;
+    color: black;
+    margin: 2rem auto;
+    margin-top: 7rem;
+    background-color:#C4E4FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 30px; /* Increase space between title and content */
+}
+
+#userInfo p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Style for Update Information Button */
+.btn-primary {
+    background-color: #007bff; /* Blue color */
+    border-color: #007bff; /* Blue color */
+    width: 100%; /* Full-width button */
+    margin-top: 20px; /* Space below user info */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+    border-color: #0056b3; /* Darker shade of blue on hover */
+}

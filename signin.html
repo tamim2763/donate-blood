@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            width: 30%;
+            margin: 9% auto;
+            background-color: #C4E4FF;
+            border-radius: 1rem;
+            padding: 2rem;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            background-image: url('blood donate background.jpg');
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: "Poppins", sans-serif;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <img class="mb-4" src="blood-donation-svgrepo-com.svg" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              <label for="email">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
+              <label for="password">Password</label>
+            </div>
+            <div class="form-check text-start my-3">
+              <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">Remember me</label>
+            </div>
+            <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-body-secondary">© 2024</p>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
