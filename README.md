@@ -13,9 +13,10 @@ A front-end prototype for a web application designed to connect blood donors wit
 The goal of this project was to design and build the front-end for a full-stack platform that connects blood donors with those in need.
 
 It includes the complete user interface for:
-* User registration and login
-* A private user dashboard for donors
-* A donor search and results page
+
+- User registration and login
+- A private user dashboard for donors
+- A donor search and results page
 
 While the front-end is fully built, the backend logic (user authentication, database connections, and search functionality) is not fully implemented.
 
@@ -23,17 +24,17 @@ While the front-end is fully built, the backend logic (user authentication, data
 
 ### 🛠 Tech Stack
 
-* **Frontend:** HTML, CSS, Vanilla JavaScript, Bootstrap
-* **Backend (In-Progress/Planned):** Node.js, Express.js, MongoDB (with Mongoose), JWT, bcrypt
+- **Frontend:** HTML, CSS, Vanilla JavaScript, Bootstrap
+- **Backend (In-Progress):** Node.js, Express.js, MongoDB (with Mongoose), JWT, bcrypt
 
 ---
 
 ### Key UI/UX Features
 
-* **Responsive Design:** The UI is fully responsive and accessible on mobile, tablet, and desktop.
-* **User Dashboard:** A clean, modern UI for a protected donor dashboard.
-* **Donor Search:** A clear, card-based interface for displaying donor search results.
-* **Complete User Flow:** Includes all necessary pages for a user to navigate, from the homepage to signing up and viewing a dashboard.
+- **Responsive Design:** The UI is fully responsive and accessible on mobile, tablet, and desktop.
+- **User Dashboard:** A clean, modern UI for a protected donor dashboard.
+- **Donor Search:** A clear, card-based interface for displaying donor search results.
+- **Complete User Flow:** Includes all necessary pages for a user to navigate, from the homepage to signing up and viewing a dashboard.
 
 ---
 
