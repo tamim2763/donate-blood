@@ -8,12 +8,6 @@ A full-stack web application built with Node.js that connects blood donors with 
 
 ---
 
-### Screenshots
-
-(Add a screenshot of your homepage here! Just drag the image file into this text area on GitHub.)
-
----
-
 ### ## About This Project
 
 This project was built to solve a critical problem: connecting blood donors with those in need. It provides a full-stack platform for users to register as donors and for patients to find donors based on blood type.
