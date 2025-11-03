@@ -1,6 +1,6 @@
-# Donate-Blood Web App
+# Donate-Blood (Front-End Prototype)
 
-A front-end prototype built with Node.js that connects blood donors with patients through a web-based platform.
+A front-end prototype for a web application designed to connect blood donors with patients. This project focuses on the user interface (UI) and user flow for a full-stack blood donation platform.
 
 ### 🚀 Live Demo
 
@@ -10,25 +10,30 @@ A front-end prototype built with Node.js that connects blood donors with patient
 
 ### About This Project
 
-This project was built to solve a critical problem: connecting blood donors with those in need. It provides a full-stack platform for users to register as donors and for patients to find donors based on blood type.
+The goal of this project was to design and build the front-end for a full-stack platform that connects blood donors with those in need.
+
+It includes the complete user interface for:
+* User registration and login
+* A private user dashboard for donors
+* A donor search and results page
+
+While the front-end is fully built, the backend logic (user authentication, database connections, and search functionality) is not fully implemented.
 
 ---
 
 ### 🛠 Tech Stack
 
-* **Backend:** Node.js, Express.js, MongoDB (with Mongoose)
-* **Authentication:** JSON Web Tokens (JWT), bcrypt
 * **Frontend:** HTML, CSS, Vanilla JavaScript, Bootstrap
-* **Deployment:** Vercel
+* **Backend (In-Progress/Planned):** Node.js, Express.js, MongoDB (with Mongoose), JWT, bcrypt
 
 ---
 
-### Features
+### Key UI/UX Features
 
-* **Secure User Authentication:** Full register and login system using JWT for protected routes.
-* **Donor Dashboard:** A private, authenticated dashboard (`/dashboard`) where users can view and update their profile information (name, last donation date, etc.).
-* **Donor Search:** A protected feature (`/find_donor`) that allows logged-in users to search for eligible donors by blood group.
-* **Eligibility Logic:** The server automatically calculates if a donor is eligible to donate based on their last donation date.
+* **Responsive Design:** The UI is fully responsive and accessible on mobile, tablet, and desktop.
+* **User Dashboard:** A clean, modern UI for a protected donor dashboard.
+* **Donor Search:** A clear, card-based interface for displaying donor search results.
+* **Complete User Flow:** Includes all necessary pages for a user to navigate, from the homepage to signing up and viewing a dashboard.
 
 ---
 
@@ -46,7 +51,7 @@ This project was built to solve a critical problem: connecting blood donors with
     ```bash
     npm install
     ```
-4.  Run the server:
+4.  Run the server (to serve the static files):
     ```bash
     node server.js
     ```
