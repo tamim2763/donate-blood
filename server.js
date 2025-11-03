@@ -19,8 +19,11 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
 // MongoDB connection
+const dbUrl =
+  process.env.DATABASE_URL || "mongodb://localhost:27017/blood-donation";
+
 mongoose
-  .connect("mongodb://localhost:27017/blood-donation", {})
+  .connect(dbUrl, {})
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log("MongoDB connection error:", err));
 
