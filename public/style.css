@@ -1,0 +1,168 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #1A1A1D;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #C3073F;
+}
+
+a {
+    color: #C3073F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #950740;
+}
+
+/* Navbar */
+header {
+    background-color: #1A1A1D;
+    padding: 1rem 0;
+}
+
+.nav-link {
+    color: #f7f7f7;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #C3073F;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #1A1A1D;
+}
+
+.btn-warning {
+    background-color: #C3073F;
+    border: none;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #950740;
+}
+
+/* heroes  */
+.hero-img {
+    transition: transform 0.2s;
+}
+
+.hero-img:hover {
+    transform: scale(1.05);
+}
+
+/* about us  */
+
+.about-section .card {
+    transition: transform 0.2s;
+    background-color: #ffffff;
+    border: none;
+}
+
+.about-section .card:hover {
+    transform: scale(1.05);
+}
+
+
+/* features section */
+.features-section .card {
+    transition: transform 0.2s;
+    background-color: #ffffff;
+    border: none;
+}
+
+.features-section .card:hover {
+    transform: scale(1.05);
+}
+ 
+/* How it works */
+.how-it-works-section .card {
+    transition: transform 0.2s;
+    background-color: #ffffff;
+    border: none;
+}
+
+.how-it-works-section .card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Testimonials */
+.testimonials-section {
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+}
+
+.testimonials-section .card {
+    transition: transform 0.2s;
+    background-color: #ffffff;
+    border: none;
+    padding: 1rem;
+}
+
+.testimonials-section .card:hover {
+    transform: scale(1.05);
+}
+
+.testimonials-section .card-title {
+    font-family: 'Poppins', sans-serif;
+    color: #C3073F;
+    text-align: center;
+}
+
+.testimonials-section .card-img-top {
+    border-radius: 50%;
+    border: 5px solid #C3073F;
+    object-fit: cover;
+}
+
+.card-img-top {
+    width: 10rem;
+    height: 10rem;
+    margin: auto; 
+    margin-top: 0.8rem;  
+}
+
+.cta-section {
+    background-color: #41B06E;
+}
+
+/* Footer */
+footer {
+    background-color: #1A1A1D;
+    color: #f7f7f7;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .text-end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
+

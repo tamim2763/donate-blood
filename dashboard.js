@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     try {
-        const response = await fetch('http://localhost:3000/user', {
+        const response = await fetch('/user', {
             method: 'GET',
             headers: {
                 'Authorization': 'Bearer ' + token
@@ -53,7 +53,7 @@ function handleUpdate() {
 
     // Fetch existing user information
     const token = localStorage.getItem('token');
-    fetch('http://localhost:3000/user', {
+    fetch('/user', {
         headers: {
             'Authorization': `Bearer ${token}`
         }
@@ -131,7 +131,7 @@ async function saveUserInfo() {
     };
 
     try {
-        const response = await fetch('http://localhost:3000/update-user', {
+        const response = await fetch('/update-user', {
             method: 'PATCH',
             headers: {
                 'Authorization': 'Bearer ' + token,
@@ -168,7 +168,7 @@ async function saveUserInfo() {
 function cancelUpdate() {
     // Reload user information without editing
     const token = localStorage.getItem('token');
-    fetch('http://localhost:3000/user', {
+    fetch('/user', {
         headers: {
             'Authorization': `Bearer ${token}`
         }
