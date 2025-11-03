@@ -13,7 +13,7 @@ A front-end prototype for a web application designed to connect blood donors wit
 <table>
   <tr>
     <td><img width="300" alt="home page" src="https://github.com/user-attachments/assets/d2b12160-18d0-425e-96ef-c12da45ee5e4" /></td>
-    <td><img width="300" alt="find donor page" src="httpsG://github.com/user-attachments/assets/c75d9531-98bb-45da-9ff3-e53d3d6376fe" /></td>
+    <td><img width="300" alt="find donor page" src="https://github.com/user-attachments/assets/c75d9531-98bb-45da-9ff3-e53d3d6376fe" /></td>
     <td><img width="300" alt="become donor page" src="https://github.com/user-attachments/assets/234f4a7f-342b-4de6-8333-54fbd511e407" /></td>
   </tr>
 </table>
