@@ -1,6 +1,6 @@
 # Donate-Blood Web App
 
-A full-stack web application built with Node.js that connects blood donors with patients through a web-based platform.
+A front-end prototype built with Node.js that connects blood donors with patients through a web-based platform.
 
 ### 🚀 Live Demo
 
@@ -8,13 +8,13 @@ A full-stack web application built with Node.js that connects blood donors with 
 
 ---
 
-### ## About This Project
+### About This Project
 
 This project was built to solve a critical problem: connecting blood donors with those in need. It provides a full-stack platform for users to register as donors and for patients to find donors based on blood type.
 
 ---
 
-### ## 🛠 Tech Stack
+### 🛠 Tech Stack
 
 * **Backend:** Node.js, Express.js, MongoDB (with Mongoose)
 * **Authentication:** JSON Web Tokens (JWT), bcrypt
@@ -23,7 +23,7 @@ This project was built to solve a critical problem: connecting blood donors with
 
 ---
 
-### ## Features
+### Features
 
 * **Secure User Authentication:** Full register and login system using JWT for protected routes.
 * **Donor Dashboard:** A private, authenticated dashboard (`/dashboard`) where users can view and update their profile information (name, last donation date, etc.).
@@ -32,7 +32,7 @@ This project was built to solve a critical problem: connecting blood donors with
 
 ---
 
-### ## How to Run Locally
+### How to Run Locally
 
 1.  Clone the repository:
     ```bash
