@@ -2,13 +2,13 @@
 
 A front-end prototype for a web application designed to connect blood donors with patients. This project focuses on the user interface (UI) and user flow for a full-stack blood donation platform.
 
-### 🚀 Live Demo
+### Live Demo
 
 [**View the live site here!**](https://donate-blood-one.vercel.app/)
 
 ---
 
-### 📷 Screenshots
+### Screenshots
 
 <table>
   <tr>
@@ -34,7 +34,7 @@ While the front-end is fully built, the backend logic (user authentication, data
 
 ---
 
-### 🛠 Tech Stack
+### Tech Stack
 
 - **Frontend:** HTML, CSS, Vanilla JavaScript, Bootstrap
 - **Backend (In-Progress):** Node.js, Express.js, MongoDB (with Mongoose), JWT, bcrypt
